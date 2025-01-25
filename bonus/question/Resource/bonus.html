@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <!-- <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav> -->
+   <!-- Header navigation -->
+    <div class="nav-wrapper fixed-top">
+      <div class="container-fluid">
+        <nav class="navbar navbar-toggleable-sm navbar-expand-md">
+          <button
+            class="navbar-toggler navbar-toggler-right"
+            type="button"
+            data-toggle="collapse"
+            data-target=".navbar-collapse"
+          >
+            ☰
+          </button>
+          <a class="navbar-brand mx-auto" href="#"
+            >My Portfolio</a>
+
+          <div class="navbar-collapse collapse">
+            <ul class="navbar-nav nav-justified w-100 nav-fill">
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="/mac/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- My code goes in here -->
+
+  <!-- About Section -->
+  <div class="container text-center my-5">
+    <img src="./boy.png" alt="Profile Picture" class="rounded-circle mb-3">
+    <h2>About Me</h2>
+    <p>Hello! I am [Your Name], a web developer with a passion for creating beautiful and functional websites.</p>
+  </div>
+
+  <!-- Projects Section -->
+  <div class="container my-5">
+    <h2 class="text-center">Projects</h2>
+    <div class="row">
+      <div class="col-md-4 text-center my-3">
+        <img src="./bootstrap.jpg" alt="Bootstrap Logo" class="img-fluid">
+        <h5>Project 1</h5>
+        <p>Basics of Bootstrap</p>
+      </div>
+      <div class="col-md-4 text-center my-3">
+        <img src="./css.jpg" alt="CSS Logo" class="img-fluid">
+        <h5>Project 2</h5>
+        <p>Basics of CSS</p>
+      </div>
+      <div class="col-md-4 text-center my-3">
+        <img src="./html.jpg" alt="HTML Logo" class="img-fluid">
+        <h5>Project 3</h5>
+        <p>Basics of HTML</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="container my-5">
+    <h2 class="text-center">Contact Me</h2>
+    <form>
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Your Name">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Your Email">
+      </div>
+      <div class="mb-3">
+        <label for="subject" class="form-label">Subject</label>
+        <input type="text" class="form-control" id="subject" placeholder="Subject">
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center py-3">
+    <p>© 2024 My Portfolio. All Rights Reserved.</p>
+    <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">LinkedIn</a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
