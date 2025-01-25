@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puppy Lovers Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        /* Header */
+        header {
+            background-color: #0057A0;
+            color: white;
+            padding: 20px 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Main content */
+        .main-image {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            margin: 20px auto;
+            display: block;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .gallery img, .gallery div {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        .gallery div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #FF1493;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .more-puppies {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        .footer {
+            background-color: #0057A0;
+            color: white;
+            padding: 10px 0;
+            font-size: 16px;
+        }
+
+        /* Media queries */
+        @media (max-width: 1024px) {
+            .gallery {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                font-size: 20px;
+            }
+            .more-puppies {
+                font-size: 18px;
+            }
+            .footer {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Puppy lovers page
+    </header>
+
+    <main>
+        <img class="main-image" src="./images/banner-puppies.jpg" alt="Puppies in a basket">
+
+        <section class="gallery">
+            <img src="./images/puppy-1.jpg" alt="White puppy">
+            <div>Puppy missing here!!</div>
+            <img src="./images/puppy-2.jpg" alt="Black puppy">
+        </section>
+
+        <p class="more-puppies">More Puppies</p>
+
+        <section class="gallery">
+            <img src="./images/puppy-3.jpg" alt="Brown puppy">
+            <img src="./images/puppy-4.jpg" alt="White puppy">
+        </section>
+    </main>
+
+    <footer class="footer">
+        Developed by: {Your name}
+    </footer>
+</body>
+</html>

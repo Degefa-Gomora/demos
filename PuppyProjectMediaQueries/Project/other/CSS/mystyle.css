@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* .outer-wrapper{
+    width: 600px;
+    height: auto;
+} */
+
+/* .internal-wrapper{
+    width: 600px;
+} */
+.blueBG{
+    background-color: #075070;
+    color: #f2f6f7;
+    text-align: center;
+}
+
+.banner{
+    background-image: url(../images/banner-puppies.jpg);
+    height: 560px; /* every image inserted by css needs height to be displayed in browser*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin:auto; /* to make it in center*/
+}
+
+/* .middle-puppy-wrapper div{
+    margin: 44px 51px 72px 58px;
+} */
+
+.image1, .image2, .puppymissing{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 311px;
+    width: 310px;
+    margin: 2% auto;
+}
+.image1{
+    background-image: url(../images/puppy-1.jpg);
+}
+
+.image2{
+    background-image: url(../images/puppy-2.jpg);
+}
+.more-puppies-wrapper{
+    width: 301px;
+    height: auto;
+    margin: 2% auto;
+}
+
+p{
+    text-align: center;
+}
+
+.bottom-puppies-wrapper{
+
+}
+
+.image3, .image4{
+    width: 443px;
+    height: 531px;
+    margin: 2% auto;
+}
+.image3{
+    background-image: url(../images/puppy-3.jpg);
+}
+
+.image4{
+    background-image: url(../images/puppy-4.jpg);
+}
